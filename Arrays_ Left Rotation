@@ -1,0 +1,8 @@
+def rotLeft(a, d):
+    return a[d:]+a[:d]
+
+n, d = map(int, raw_input().strip().split(' '))
+a = map(int, raw_input().strip().split(' '))
+answer = array_left_rotation(a, d);
+print ' '.join(map(str,answer))
+
